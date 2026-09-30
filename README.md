@@ -1,6 +1,6 @@
-# gap
+# Global Agent Policies (GAP)
 
-Thin, idempotent installer for Git-hosted agent distributions. gap fetches a repo, reads the root `gap.toml` manifest, and copies listed files onto the local machine. It is not a runtime, not Herdr, and not a package registry.
+**Global Agent Policies** (GAP) is a thin, idempotent installer for Git-hosted agent distributions. The `gap` CLI fetches a repo, reads the root `gap.toml` manifest, and copies listed files onto the local machine. It is not a runtime, not Herdr, and not a package registry.
 
 ```bash
 go install github.com/edheltzel/gap@latest
